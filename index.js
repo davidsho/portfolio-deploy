@@ -68,5 +68,9 @@ app.get('/*', async (req, res) => {
   res.sendFile('index.html', { root });
 });
 
-app.listen(8000);
-console.log("Running on port 8000")
+app.listen(5000, () => {
+  console.log("Running on port 5000.");
+});
+
+// Export the Express API
+module.exports = app;
