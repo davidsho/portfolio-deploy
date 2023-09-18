@@ -3,8 +3,10 @@ const axios = require('axios');
 const path = require('path');
 const app = express();
 
-app.use(express.static(path.join(__dirname, 'build')));
-
+const root = require('path').join(__dirname, 'build')
+app.use(express.static(root));
+// app.use(express.static(path.join(__dirname, 'build')));
+console.log(root);
 let trackData = {};
 let topArtistData = {};
 const davidKey = "dffc35d8f8602596a39469caa1739857"
@@ -62,14 +64,9 @@ app.get('/api/topArtistsData.json', async (req, res) => {
 const routes = ['/','/portfolio','crypto']
 
 app.get('/*', async (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  // res.sendFile(path.join(__dirname, 'build', 'index.html'));
+  res.sendFile('index.html', { root });
 });
 
-// Initialize server
-app.listen(5000, () => {
-  console.log("Running on port 5000.");
-});
-
-// app.listen(8000);
-// console.log("Running on port 8000")
-module.exports = app;
+app.listen(8000);
+console.log("Running on port 8000")
