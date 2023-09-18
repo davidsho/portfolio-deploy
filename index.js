@@ -65,6 +65,11 @@ app.get('/*', async (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
+// Initialize server
+app.listen(5000, () => {
+  console.log("Running on port 5000.");
+});
+
 // app.listen(8000);
 // console.log("Running on port 8000")
 module.exports = app;
