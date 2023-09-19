@@ -1,25 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.85f2abf3.chunk.css",
-    "main.js": "/static/js/main.b7102a3e.chunk.js",
-    "main.js.map": "/static/js/main.b7102a3e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6e59b08c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6e59b08c.js.map",
-    "static/js/2.84416e68.chunk.js": "/static/js/2.84416e68.chunk.js",
-    "static/js/2.84416e68.chunk.js.map": "/static/js/2.84416e68.chunk.js.map",
-    "static/js/3.64c88022.chunk.js": "/static/js/3.64c88022.chunk.js",
-    "static/js/3.64c88022.chunk.js.map": "/static/js/3.64c88022.chunk.js.map",
+    "main.css": "/static/css/main.2d0e0326.css",
+    "main.js": "/static/js/main.8111972b.js",
+    "static/js/787.8d4efb73.chunk.js": "/static/js/787.8d4efb73.chunk.js",
+    "static/media/DefaultBackground.jpeg": "/static/media/DefaultBackground.462613225c553284dd59.jpeg",
+    "static/media/ProfileImage.jpg": "/static/media/ProfileImage.9aa200923d56b4fab2ed.jpg",
     "index.html": "/index.html",
-    "static/css/main.85f2abf3.chunk.css.map": "/static/css/main.85f2abf3.chunk.css.map",
-    "static/js/2.84416e68.chunk.js.LICENSE.txt": "/static/js/2.84416e68.chunk.js.LICENSE.txt",
-    "static/media/DefaultBackground.46261322.jpeg": "/static/media/DefaultBackground.46261322.jpeg",
-    "static/media/FireflyLogo.6dd78333.png": "/static/media/FireflyLogo.6dd78333.png",
-    "static/media/ProfileImage.d27f3206.jpg": "/static/media/ProfileImage.d27f3206.jpg"
+    "main.2d0e0326.css.map": "/static/css/main.2d0e0326.css.map",
+    "main.8111972b.js.map": "/static/js/main.8111972b.js.map",
+    "787.8d4efb73.chunk.js.map": "/static/js/787.8d4efb73.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.6e59b08c.js",
-    "static/js/2.84416e68.chunk.js",
-    "static/css/main.85f2abf3.chunk.css",
-    "static/js/main.b7102a3e.chunk.js"
+    "static/css/main.2d0e0326.css",
+    "static/js/main.8111972b.js"
   ]
 }
